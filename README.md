@@ -164,7 +164,12 @@ Solve Quadratic Equation
  
 [quadratic.js](examples/quadratic.js)
 
-<img src="images/nature-of-roots.webp" alt="Nature of roots" style="background-color: white;">
+<div style="background-color: white">
+
+  <img src="images/nature-of-roots.webp" alt="Nature of roots" style="background-color: white;">
+
+</div>
+
 
 
 ```js
