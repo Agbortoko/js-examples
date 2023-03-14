@@ -1,12 +1,14 @@
 # JavaScript Examples and Solutions
 
+Create a HTML file and link the js file you want to test you your html
+
 ## Table of Content
 
-- [Print Hello World](#exercise-1)
+- [Print Hello World](#example-1)
 
-## Exercise 1
+## Example 1
 Print Hello World
-[helloworld.js](exercise/helloworld.js)
+[helloworld.js](examples/helloworld.js)
 
 ```js
 
