@@ -4,14 +4,17 @@ Create a HTML file and link the js file you want to test you your html
 
 ## Table of Content
 
-- [Print Hello World](#example-1)
-- [Add Two Numbers](#example-2)
-- [Square root of a Number](#example-3)
-- [Calculate the Area of a Traingle](#example-4)
-- [Swap two variables](#example-5)
+- [JavaScript Examples and Solutions](#javascript-examples-and-solutions)
+  - [Table of Content](#table-of-content)
+    - [Example 1 - Print Hello World](#example-1---print-hello-world)
+    - [Example 2 - Add Two Numbers](#example-2---add-two-numbers)
+    - [Example 3 - Find the square root of a number](#example-3---find-the-square-root-of-a-number)
+    - [Example 4 - Calculate the area of a traingle](#example-4---calculate-the-area-of-a-traingle)
+    - [Example 5 - Swap two variables](#example-5---swap-two-variables)
+    - [Example 6 - Solve Quadratic Equation](#example-6---solve-quadratic-equation)
 
 
-### Example 1
+### Example 1 - Print Hello World
 Print Hello World
 
 [helloworld.js](examples/helloworld.js)
@@ -33,7 +36,7 @@ document.getElementById("#content").innerHTML = "Hello World";
 ```
 
 
-### Example 2
+### Example 2 - Add Two Numbers
 Add Two Numbers
 
 [add2numbers.js](examples/add2numbers.js)
@@ -59,7 +62,7 @@ console.log(thirdNumber + fourthNumber);
 ```
 
 
-### Example 3
+### Example 3 - Find the square root of a number
 Find the square root of a number
 
 [sqrtofnumber.js](examples/sqrtofnumber.js)
@@ -76,7 +79,7 @@ console.log(`The square root of ${number} is ${squareRoot}`);
 ```
 
 
-### Example 4
+### Example 4 - Calculate the area of a traingle
 Calculate the area of a traingle
 
 [areaoftraingle.js](examples/areaoftraingle.js)
@@ -118,7 +121,7 @@ console.log(`The area of traingle with sides ${sideOne}, ${sideTwo}, ${sideThree
 ```
 
 
-### Example 5
+### Example 5 - Swap two variables
 Swap two variables
 
 [swap2variables.js](examples/swap2variables.js)
@@ -154,3 +157,9 @@ console.log(`The value of x after swapping is ${x}`);
 console.log(`The value of y after swapping is ${y}`);
 
 ```
+
+
+### Example 6 - Solve Quadratic Equation
+Solve Quadratic Equation
+ 
+[quadratic.js](examples/quadratic.js);
