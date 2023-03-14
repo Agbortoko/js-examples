@@ -12,14 +12,8 @@
  * The expression b^2-4ac is known as the discriminant of a quadratic equation
  * 
  * 1) if the discriminant > 0 the roots are real and different
- * root1 = -b + √ discriminant / 2a
- * root2 = -b - √ discriminant / 2a
- * 
  * 2) if the discriminant = 0 the roots are real and equal
- * root1, root2 = -b / 2a
- * 
  * 3) if the discriminant < 0 the roots are complex and different
- * complex stuff that i can't document here (see readme file)
  */
 
 
