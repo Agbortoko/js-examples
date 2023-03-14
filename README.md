@@ -164,7 +164,8 @@ Solve Quadratic Equation
  
 [quadratic.js](examples/quadratic.js)
 
-[Nature of roots of quadratic equation](images/nature-of-roots.webp)
+<img src="images/nature-of-roots.webp" alt="Nature of roots" style="background-color: white;">
+
 
 ```js
 /**
