@@ -12,6 +12,7 @@ Create a HTML file and link the js file you want to test you your html
     - [Example 4 - Calculate the area of a traingle](#example-4---calculate-the-area-of-a-traingle)
     - [Example 5 - Swap two variables](#example-5---swap-two-variables)
     - [Example 6 - Solve Quadratic Equation](#example-6---solve-quadratic-equation)
+    - [Example 7 - Converting Kilometers to Miles](#example-7---converting-kilometers-to-miles)
 
 
 ### Example 1 - Print Hello World
@@ -232,4 +233,24 @@ else{
 function square(number){
     return number*number;
 }
+```
+
+
+### Example 7 - Converting Kilometers to Miles
+Converting kilometers to miles
+
+[kmtomiles.js](examples/kmtomiles.js);
+
+```js
+/**
+ * Research Info
+ * 1km = 0.621371 miles
+ */
+
+const kilometers = 50;
+const conversionRate = 0.621371;
+const miles = kilometers * conversionRate;
+
+console.log(`${kilometers} kilometers is equal to ${miles} miles`)
+
 ```
