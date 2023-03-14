@@ -8,6 +8,7 @@ Create a HTML file and link the js file you want to test you your html
 - [Add Two Numbers](#example-2)
 - [Square root of a Number](#example-3)
 - [Calculate the Area of a Traingle](#example-4)
+- [Swap two variables](#example-5)
 
 
 ### Example 1
@@ -113,5 +114,32 @@ const innerCalculation = s * (s - sideOne) * (s - sideTwo) * (s - sideThree);
 const areaOfTraingle = Math.sqrt(innerCalculation);
 
 console.log(`The area of traingle with sides ${sideOne}, ${sideTwo}, ${sideThree} is ${areaOfTraingle}`);
+
+```
+
+
+### Example 5
+Swap two variables
+
+[swap2variables.js](examples/swap2variables.js)
+
+```js
+
+let a = 5;
+let b = 6;
+
+// create a temporary variable
+
+let temp;
+
+// Swap
+
+temp = a;
+a = b;
+b = temp;
+
+
+console.log(`The value of a after swapping is ${a}`);
+console.log(`The value of b after swapping is ${b}`);
 
 ```
