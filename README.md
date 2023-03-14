@@ -6,8 +6,10 @@ Create a HTML file and link the js file you want to test you your html
 
 - [Print Hello World](#example-1)
 - [Add Two Numbers](#example-2)
+- [Square root of a Number](#example-3)
 
-## Example 1
+
+### Example 1
 Print Hello World
 
 [helloworld.js](examples/helloworld.js)
@@ -28,7 +30,8 @@ document.getElementById("#content").innerHTML = "Hello World";
 
 ```
 
-## Example 2
+
+### Example 2
 Add Two Numbers
 
 [add2numbers.js](examples/add2numbers.js)
@@ -51,4 +54,21 @@ const thirdNumber = parseInt(prompt("Enter the first number"));
 const fourthNumber = parseInt(prompt("Enter the second Number"));
 
 console.log(thirdNumber + fourthNumber);
+```
+
+
+### Example 3
+Find the square root of a number
+
+[sqrtofnumber.js](examples/sqrtofnumber.js)
+
+```js
+
+const number = prompt("Type the number");
+
+// Using the built in Math.sqrt() method
+const squareRoot = Math.sqrt(number);
+
+console.log(`The square root of ${number} is ${squareRoot}`);
+
 ```
