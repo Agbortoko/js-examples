@@ -13,6 +13,7 @@ Create a HTML file and link the js file you want to test you your html
     - [Example 5 - Swap two variables](#example-5---swap-two-variables)
     - [Example 6 - Solve Quadratic Equation](#example-6---solve-quadratic-equation)
     - [Example 7 - Converting Kilometers to Miles](#example-7---converting-kilometers-to-miles)
+    - [Example 8 - Convert Celsius to Fahrenheit](#example-8---convert-celsius-to-fahrenheit)
 
 
 ### Example 1 - Print Hello World
@@ -239,7 +240,7 @@ function square(number){
 ### Example 7 - Converting Kilometers to Miles
 Converting kilometers to miles
 
-[kmtomiles.js](examples/kmtomiles.js);
+[kmtomiles.js](examples/kmtomiles.js)
 
 ```js
 /**
@@ -252,5 +253,24 @@ const conversionRate = 0.621371;
 const miles = kilometers * conversionRate;
 
 console.log(`${kilometers} kilometers is equal to ${miles} miles`)
+
+```
+
+
+### Example 8 - Convert Celsius to Fahrenheit
+Converting Celsius to Fahrenheit
+
+[celsiustofahrenheit.js](examples/celsiustofahrenheit.js)
+
+```js
+/**
+ * fahrenheit = (celsius * 9/5) + 32
+*/
+
+const celsius = 50;
+
+const fahrenheit = (celsius * 1.8) * 32;
+
+console.log(`${celsius} degree celsius is equal to ${fahrenheit} fahrenheit`);
 
 ```

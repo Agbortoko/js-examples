@@ -9,4 +9,4 @@ const conversionRate = 0.621371;
 
 const miles = kilometers * conversionRate;
 
-console.log(`${kilometers} kilometers is equal to ${miles} miles`)
+console.log(`${kilometers} kilometers is equal to ${miles} miles`);
