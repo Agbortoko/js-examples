@@ -6,7 +6,7 @@
 
 ## Exercise 1
 Print Hello World
-[helloworld.js](helloworld.js)
+[helloworld.js](exercise/helloworld.js)
 
 ```js
 
