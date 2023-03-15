@@ -14,6 +14,7 @@ Create a HTML file and link the js file you want to test you your html
     - [Example 6 - Solve Quadratic Equation](#example-6---solve-quadratic-equation)
     - [Example 7 - Converting Kilometers to Miles](#example-7---converting-kilometers-to-miles)
     - [Example 8 - Convert Celsius to Fahrenheit](#example-8---convert-celsius-to-fahrenheit)
+    - [Example 9 - Generate a Random Number](#example-9---generate-a-random-number)
 
 
 ### Example 1 - Print Hello World
@@ -274,3 +275,8 @@ const fahrenheit = (celsius * 1.8) * 32;
 console.log(`${celsius} degree celsius is equal to ${fahrenheit} fahrenheit`);
 
 ```
+
+### Example 9 - Generate a Random Number
+Generating a Random Number
+
+[genrandomnumber.js](examples/genrandomnumber.js)
